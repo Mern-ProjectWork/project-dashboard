@@ -1,4 +1,346 @@
-*
-{
-    margin: 0px;
+body{
+    background-color: rgb(145, 145, 140);
 }
+.sidenav .menu p:hover
+{
+   background-color: white;
+   
+}
+.sidenav
+{
+    position: fixed;
+    padding: 15px;
+    width: 250px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(130, 134, 134);
+}
+.header{
+    box-sizing: border-box;
+    border: 1px;
+}
+
+.container
+{
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    width: 80vw;
+    height: 100vh;
+}
+.container .header
+{
+    
+    top: 0;
+    right: 0;
+    width: 80vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
+    
+}
+.container .header .topnav
+{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.container .header .topnav .search-box
+{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+   
+}
+.container .header .topnav .search-box input[type=text]
+{
+    border: 1;
+    padding: 10px;
+    width: 550px;
+    height: 15px;
+}
+.container .header .topnav .search-box button
+{
+    width: 40px;
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+.container .header .topnav .search-box button img{
+    height: 30px;
+    width: 30px;
+}
+.container .header .topnav .details
+{
+    position: relative;
+    justify-content: center;
+    padding: 2px;
+    top: 70px;
+    right: 550px;
+}
+.container .header .topnav .user
+{
+    flex: 3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container .header .topnav .user img{
+    width: 20px;
+    height: 20px;
+}
+
+.container .header .topnav .user .img-case 
+{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container .header .topnav .user .img-case img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 30px;
+}
+.container .header .topnav .user .img-case .name
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.container .header .topnav .user .details p
+{
+    float: right;
+    margin-bottom: 15px;
+}
+.profile img{
+    display: inline;
+    position: relative;
+    right: 40%;
+    bottom: 65px;
+}
+.options button
+{
+    
+    display: inline-block;
+    justify-content: space-evenly;
+    padding: 1 50px;
+    position: relative;
+    right: 110%;
+    
+}
+.col-1
+{
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 100px;
+    
+}
+.title
+{
+    margin-top: 150px;
+    padding: 15px;
+}
+.title h4{
+    font-size: 20px;
+    position: relative;
+    bottom: 60px;
+}
+.content-1 
+{
+    display: flex;
+    box-sizing: border-box;
+    
+}
+.row-1 p
+{
+    font-size: 14px;
+}
+.row-1-1 p
+{
+    font-size: 14px;
+}
+.row-2 p
+{
+    font-size: 14px;
+}
+.row-2-2 p
+{
+    font-size: 14px;
+}
+.row-3 p
+{
+    font-size: 14px;
+}
+.row-3-3 p
+{
+    font-size: 14px;
+}
+
+.content-1 .row-1 
+{
+    position: relative;
+    bottom: 80px;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-left: 10px solid blueviolet ;
+    width: 25%;
+    
+
+}
+.row-1 img{
+    float: right;
+    padding: 10px;
+}
+.content-1 .row-1-1
+{
+    position: relative;
+    bottom: 80px;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-left: 10px solid blueviolet ;
+    width: 25%;
+}
+.row-1-1 img{
+    float: right;
+    padding: 10px;
+}
+.content-2
+{
+    display: flex;
+    box-sizing: border-box;
+    
+}
+.content-2 .row-2
+{
+    position: relative;
+    bottom: 80px;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-left: 10px solid blueviolet ;
+    width: 25%;
+}
+.row-2 img{
+    float: right;
+    padding: 10px;
+}
+.content-2 .row-2-2
+{
+    position: relative;
+    bottom: 80px;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-left: 10px solid blueviolet ;
+    width: 25%;
+}
+.row-2-2 img{
+    float: right;
+    padding: 10px;
+}
+.content-3
+{
+    display: flex;
+    box-sizing: border-box;
+    
+    
+}
+.content-3 .row-3
+{
+    position: relative;
+    bottom: 80px;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-left: 10px solid blueviolet ;
+    width: 25%;
+}
+.row-3 img{
+    float: right;
+    padding: 10px;
+}
+.content-3 .row-3-3
+{
+    position: relative;
+    bottom: 80px;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-left: 10px solid blueviolet ;
+    width: 25%;
+}
+.row-3-3 img{
+    float: right;
+    padding: 10px;
+}
+.col-2
+{
+    position: relative;
+    bottom: 116%;
+    right: 15%;
+    float: right;
+    box-sizing: border-box;
+    width: 25%;
+    padding: 15px;
+    height: 15px;
+   
+}
+.col-2 .row-head
+{
+    border: 2px solid;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 11px;
+    
+}
+.img-1 li
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.img-1 img{
+    margin: 1px;
+}
+.col-3
+{
+    position: relative;
+    bottom: 62%;
+    left: 2%;
+    float: right;
+    box-sizing: border-box;
+    width: 15%;
+
+}
+.col-3 .img-1
+{
+    border: 2px solid;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
